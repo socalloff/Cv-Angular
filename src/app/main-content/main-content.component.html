@@ -1,0 +1,181 @@
+<mat-drawer-container class="container">
+
+  <div class="logo-content">
+    <img class="logo" src="./assets/symbolsCV.png">
+  </div>
+
+  <div class="presentation">
+    <p>
+      Actuellement en phase de réorientation professionnelle, je suis à la recherche
+      d’un premier emploi dans le développement web. J’ai eu la chance de suivre un formation
+      POEC développeur web et web mobile via L’AFDAS, M2i et Pôle Emploi. Je cherche à évoluer,
+      me spécialiser rapidement dans une entreprise avec laquelle je pourrai m’épanouir professionnellement.
+    </p>
+  </div>
+
+
+  <div class="sidenav-content4">
+    <div>
+      <button (click)="showFiller4 = !showFiller4" mat-stroked-button>
+        <i class="material-icons">info</i><p> INFORMATIONS </p>
+      </button>
+          <div class="INFOS">
+    <div class="divInfos" *ngIf="showFiller4">
+      <div>
+        <div class="affinites"><i class="material-icons"> home</i><h5 class="h3affinites">54 RUE ROGER SALENGRO, 69310 PIERRE BENITE</h5> </div>
+        <div class="affinites"><i class="material-icons"> speaker_notes</i><h5 class="h3affinites">ANGLAIS (TOEIC 2016)</h5> </div>
+        <div class="affinites"><i class="material-icons"> phone</i><h5 class="h3affinites">+33 (0) 6 84 38 09 23</h5> </div>
+    </div>
+      
+        <div>
+
+          <div class="affinites"><i class="material-icons"> directions_car</i><h5 class="h3affinites">PERMIS ET VOITURE</h5> </div>
+          <div class="affinites"><i class="material-icons"> email</i><h5 class="h3affinites">gillian.sokoloff(at)gmail.com</h5> </div>
+          <div class="affinites"><i class="material-icons"> face</i><h5 class="h3affinites">07.12.1991 SUISSE</h5> </div>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+  <div class="sidenav-content">
+    <div>
+        <button (click)="showFiller = !showFiller" mat-stroked-button>
+            <i class="material-icons">work</i><p> EXPERIENCES </p>
+        </button>
+      <div class="divExperiences" *ngIf="showFiller">
+        <h3>Equipier en arcade de réalité virtuelle</h3>
+        <p>BPK ENTERTAINEMENT</p>
+        <p><em>2018 (6 mois) <br/> Lyon, France</em></p>
+        <p>Gestion/installation du matériel et du mobilier, gestion des expériences, identité graphique, 
+          gestion de la salle, clientèle, communication. <br/>Compétences acquises : travailler dans une startup, 
+          gestion fournisseur et clients, responsabilité d’un commerce, tenue d’une caisse.</p>
+  
+          <div class="espaceContent"></div>
+  
+        <h3>Rédacteur web bénévole</h3>
+        <p>PAUSEGEEK.FR</p>
+        <p><em>2017 (4 mois) <br/> Lyon, France</em></p>
+        <p>Rédaction d’articles, news et tests sur la culture geek.  
+            <br/>Compétences acquises : recherche d’informations, rédaction, interview, test. 
+        </p>
+  
+        <div class="espaceContent"></div>
+  
+        <h3>Game designer, level designer</h3>
+        <p>BELLECOUR ECOLE D'ARTS</p>
+        <p><em>2016 (6 mois) <br/> Lyon, France</em></p>
+        <p>Gestion d’un game design document ainsi que sa mise en page, réalisation d’un niveau de 
+          jeu pour un prototype/démo, présentation du concept devant des experts. <br/>Compétences acquises : 
+          level design, travail d’équipe, présentation de projet. 
+        </p>
+  
+        <div class="espaceContent"></div>
+  
+        <h3>Stage de graphiste</h3>
+        <p>REDPROD</p>
+        <p><em>2012 (3 mois) <br/> Montreux, Suisse</em></p>
+        <p>Stage de fin d’études en entreprise en tant que graphiste. <br/>Compétences acquises : gestion 
+          d’un catalogue de produit, graphisme publicitaire, design de produit (tee-shirts, sacs ou 
+          encore porte-monnaie).
+        </p>
+  
+        <div class="espaceContent"></div>
+  
+        <h3>Apprentissage de Techno-imprimeur</h3>
+        <p>JOURNAL DE STE-CROIX</p>
+        <p><em>2008 (1an) <br/> Ste-Croix, Suisse</em></p>
+        <p>Une année en entreprise, impression de flyer jusqu’aux romans.  <br/>Compétences acquises : 
+          vie d’entreprise, impression offset, travail manuel. 
+        </p>
+  
+  
+      </div>
+
+      </div>
+    </div>
+
+
+
+
+
+  <div class="sidenav-content2">
+    <div>
+        <button (click)="showFiller2 = !showFiller2" mat-stroked-button>
+            <i class="material-icons">class</i><p> FORMATIONS </p>
+        </button>
+    <div class="divFormation" *ngIf="showFiller2">
+      <h3>POEC développeur web et web mobile</h3>
+      <p>M2i</p>
+      <p><em>2019 (3 mois) <br/> Lyon, France</em></p>
+      <p>Formation préparation opérationelle à l’emploi collective de développeur web
+        et web mobile. Formation intensive de 3 mois, des bases des languages HTML5 et CSS3,
+        du JavaScript natif en passant par JQuery jusqu’à Angular 7, mais aussi de l’export
+        sur mobile via Cordova, du PHP, MySQL et Java. Une formation complète sur les tendances
+        actuelles mais aussi une rétrospective afin d’avoir tous les outils pour évoluer rapidement
+        dans le domaine.<br/>Compétences acquises : beaucoup de bases dans différents domaines, il ne reste plus qu'à se spécialiser ! </p>
+        
+        <div class="espaceContent"></div>
+
+      <h3>Bachelor de Game Designer</h3>
+      <p>BELLECOUR ECOLE D'ARTS</p>
+      <p><em>2013-2016 <br/> Lyon, France</em></p>
+      <p>De l’organisation d’un game concept jusqu’à la réalisation d’un game design document
+        original accompagné d’un prototype jouable. <br/>Compétences acquises : l’envers du décors du
+        jeu vidéo, le développement d’un jeu vidéo, gestion et travail d’équipe, gestion des differente
+        phases d’un projet.
+      </p>
+
+      <div class="espaceContent"></div>
+
+      <h3>Diplôme professionnel de Designer (CFC)</h3>
+      <p>ECAV</p>
+      <p><em>2009-2013 <br/> Sierre, Suisse </em></p>
+      <p>De la création d’une carte de visite jusqu’à la conception d’une identité graphique originale.
+          <br/>Compétences acquises : sens de l’esthétique, soucis du détail, conceptualisation, curiosité culturelle,
+        besoins du client.
+      </p>
+
+      <div class="espaceContent"></div>
+
+      <div class="competences"><i class="material-icons"> favoritefavoritefavoritefavoritefavorite</i><h6 class="h3affinites">Suite Adobe (Photoshop, InDesign, Illustrator)</h6> </div>
+      <div class="competences"><i class="material-icons"> favorite_borderfavoritefavoritefavoritefavorite</i><h6 class="h3affinites">Pack Office (Excel, Word, Power Point)</h6> </div>
+      <div class="competences"><i class="material-icons"> favorite_borderfavoritefavoritefavoritefavorite</i><h6 class="h3affinites">Suite Google (Docs, Sheets, Slides)</h6> </div>
+
+
+    </div>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="sidenav-content3">
+    <div>  
+    <button (click)="showFiller3 = !showFiller3" mat-stroked-button>
+          <i class="material-icons">favorite</i><p> AFFINITES </p>
+      </button>
+    <div class="divAffinites" *ngIf="showFiller3">
+      <div class="affinites"><i class="material-icons"> favoritefavoritefavoritefavoritefavorite</i><h3 class="h3affinites">HTML5 & CSS3</h3> </div>
+      <div class="affinites"><i class="material-icons"> favorite_borderfavorite_borderfavoritefavoritefavorite</i><h3 class="h3affinites">WORDPRESS</h3> </div>
+      <div class="affinites"><i class="material-icons"> favorite_borderfavorite_borderfavoritefavoritefavorite</i><h3 class="h3affinites">JAVASCRIPT, JQUERY & TYPESCRIPT</h3> </div>
+      <div class="affinites"><i class="material-icons"> favorite_borderfavoritefavoritefavoritefavorite</i><h3 class="h3affinites">BOOTSTRAP & MATERIAL</h3> </div>
+      <div class="affinites"><i class="material-icons"> favoritefavoritefavoritefavoritefavorite</i><h3 class="h3affinites">ANGULAR 7</h3> </div>
+      <div class="affinites"><i class="material-icons"> favoritefavoritefavoritefavoritefavorite</i><h3 class="h3affinites">VISUAL STUDIO CODE & SUBLIME TEXT 3</h3> </div>
+      <p> A venir : PHP, MySQL et Java.</p>
+
+
+    </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+</mat-drawer-container>
